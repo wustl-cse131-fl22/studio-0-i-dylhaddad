@@ -9,7 +9,7 @@ public class LunchReceipt {
 		double chipsPrice = 1.00;
 		double guacPrice = 2.50;
 		
-		double subtotal = burritoPrice + drinkPrice + chipsPrice + guacPrice;
+		double subtotal = burritoPrice  + drinkPrice + chipsPrice + guacPrice;
 		double taxRate = 0.04225;
 		double taxAmount = subtotal * taxRate;
 		double total = subtotal + taxAmount;
